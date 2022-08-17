@@ -4,7 +4,7 @@
 
 h1 {
     font-size: 6em;
-    color: purple;
+    color:indianred;
     font-family: serif;
     font-style: italic;
     text-align: center;
@@ -24,7 +24,7 @@ input {
     font-size: 2em;
     padding: 0;
     font-weight: bold;
-    border: blue solid 2px;
+    border: purple 5px;
 }
 
 .centerdiv {
@@ -37,8 +37,8 @@ input {
 }
 
 footer {
-    background-color: rgb(154, 108, 180);
-    color: white;
+    background-color: indianred(154, 108, 180);
+    color: indianred;
     padding: 30px;
     margin: 0;
 }
