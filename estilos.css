@@ -1,23 +1,44 @@
-h1 {
-    font-size: 6em;
-    color: black;
-    font-family:'Times New Roman', Times, serif;
-    font-style: italic;
-    text-align: center;
-    background-color: lightcoral;
+* {
+    margin: 0;
 }
 
-.inputs{
-    display: flex; /* os outros não funcionam sem */
+h1 {
+    font-size: 6em;
+    color: purple;
+    font-family: serif;
+    font-style: italic;
+    text-align: center;
+    margin: 50px 0;
+}
+
+.inputs {
+    display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
-input{
+input {
     width: 3em;
     height: 3em;
     font-size: 2em;
-    padding: 0%;
-    color:lightcoral;
-    border: black solid 2px;
+    padding: 0;
+    font-weight: bold;
+    border: blue solid 2px;
+}
+
+.centerdiv {
+    text-align: center;
+    margin: 30px;
+}
+
+.geral {
+    height: calc(100vh - 170.4px - 118.4px);
+}
+
+footer {
+    background-color: rgb(154, 108, 180);
+    color: white;
+    padding: 30px;
+    margin: 0;
 }
